@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21723146'))
 API_HASH = environ.get('API_HASH', '07cd9c82699c28111cb33693ecbd9116')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6088261601:AAHDYDGB7Cc5Gr6vXZ7VJwvjBKCqzUW_Gw4")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6265513460:AAEVABfwA8nb-OamLRm_aTEzP9kUlsnvzos")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,7 +37,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kailash:pass@cluster0.sqtztxm.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Abdul12:Abdul12@cluster0.o6jx2be.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -49,7 +49,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001804556939))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-10018108062900))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001569815531))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/fileddhh')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/pathan_h/60')
 
